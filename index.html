@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna Public School Shakoor</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!--1. School ka menu bar ( Navigation) -->
+    <header style="display: flex;justify-content: space-between; align-items: centre; padding: 20px 50px; background-color: #1a365d; color: white;">
+        <div style="font-size: 24px; font-weight: bold; color: #fbd38d;">APS Shakoor</div>
+        <nav>
+            <ul style="display: flex; list-style: none; gap: 25px; margin: 0; padding: 0;">
+                <li><a href="index.html" style="color: white; text-decoration: none; font-weight: bold;">Home</a></li>
+                <li><a href="#about" style="color: white; text-decoration: none; font-weight: bold;">About Us</a></li>
+                <li><a href="#admissions" style="color: white; text-decoration: none; font-weight: bold;">Admissions</a></li>
+                <li><a href="#contact" style="color: white; text-decoration: none; font-weight: bold;">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 2. Main Wellcome  Section (Banner) -->
+     <section style="text-align: center; padding: 100px 20px; background-color: f7fafc;">
+        <h1 style="font-size: 42px; color: #1a365d; margin-bottom: 15px;">Welcome To Apna Public School Shakoor</h1>
+        <p style="font-size: 18px; color: #4a5568; margin-bottom: 25px;">Shaping The Leaders Of Tomorrow With Quality Education.</p>
+        <img src="images/school.jpg" alt="School Building" style="width: 100%; max-width: 600px; height: auto; border-radius: 10px; display: block; margin: 20px auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        <a href="#about" style="background-color: #e53e3e; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-size: 16px; font-weight: bold; display: inline-block; cursor: pointer; margin-top: 10px;">Explore More</a>
+        
+        
+     </section>
+     <!-- 2.5. About Us Section -->
+     <section id="about" style="padding: 60px 20px; background-color: #f1f5f9; text-align: center;">
+        <h2 style="font-size: 32px; color: #1a365d; margin-bottom: 20px;">About Our School</h2>
+        <p style="font-size: 18px; color: #4a5568; max-width: 800px; margin: 0 auto 40px auto; line-height: 1.6;">
+            Apna Public School Shakoor was founded with a vision to deliver exceptional education and foster character building. We empower students to achieve academic excellence and become responsible leaders.
+        </p>
+        
+        <!-- Core Features Cards -->
+        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; max-width: 1000px; margin: 0 auto;">
+            <div style="background: white; padding: 25px; border-radius: 8px; width: 280px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 4px solid #fbd38d;">
+                <h3 style="color: #1a365d; margin-bottom: 10px;">Quality Education</h3>
+                <p style="color: #718096; font-size: 14px; line-height: 1.5;">Modern curriculum focused on science, technology, and arts.</p>
+            </div>
+            <div style="background: white; padding: 25px; border-radius: 8px; width: 280px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 4px solid #e53e3e;">
+                <h3 style="color: #1a365d; margin-bottom: 10px;">Expert Teachers</h3>
+                <p style="color: #718096; font-size: 14px; line-height: 1.5;">Highly qualified and dedicated staff providing personal attention.</p>
+            </div>
+            <div style="background: white; padding: 25px; border-radius: 8px; width: 280px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 4px solid #1a365d;">
+                <h3 style="color: #1a365d; margin-bottom: 10px;">Sports & Labs</h3>
+                <p style="color: #718096; font-size: 14px; line-height: 1.5;">Well-equipped science labs and dynamic sports programs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2.6. Admissions Section -->
+<section id="admissions" style="padding: 60px 20px; background-color: #ffffff; text-align: center;">
+    <h2 style="font-size: 32px; color: #1a365d; margin-bottom: 10px;">Admissions Process</h2>
+    <p style="font-size: 18px; color: #4a5568; margin-bottom: 30px;">Admissions are now open! Fill out the form below to secure your seat.</p>
+
+    <!-- Admission Form Box -->
+    <div style="max-width: 500px; margin: 0 auto; background-color: #f7fafc; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border: 1px solid #e2e8f0;">
+        <h3 style="color: #1a365d; margin-bottom: 20px; font-size: 22px;">Online Admission Form</h3>
+        
+        <form action="https://formspree.io/f/apnaschoolshakoor@gmail.com" method="POST">
+            <div style="margin-bottom: 15px; text-align: left;">
+                <label style="display: block; font-weight: bold; color: #4a5568; margin-bottom: 5px;">Student Name:</label>
+                <input type="text" name="student_name" required placeholder="Enter student's full name" style="width: 100%; padding: 10px; border: 1px solid #cbd5e0; border-radius: 5px; font-size: 16px; box-sizing: border-box;">
+            </div>
+        
+            <div style="margin-bottom: 15px; text-align: left;">
+                <label style="display: block; font-weight: bold; color: #4a5568; margin-bottom: 5px;">Father's Name:</label>
+                <input type="text" name="father_name" required placeholder="Enter father's name" style="width: 100%; padding: 10px; border: 1px solid #cbd5e0; border-radius: 5px; font-size: 16px; box-sizing: border-box;">
+            </div>
+            <div style="margin-bottom: 15px; text-align: left;">
+    <label style="display: block; font-weight: bold; color: #4a5568; margin-bottom: 5px;">WhatsApp Number:</label>
+    <input type="tel" name="whatsapp_number" required placeholder="03001234567" style="width: 100%; padding: 10px; border: 1px solid #cbd5e0; border-radius: 5px; box-sizing: border-box;">
+</div>
+        
+            <div style="margin-bottom: 20px; text-align: left;">
+                <label style="display: block; font-weight: bold; color: #4a5568; margin-bottom: 5px;">Select Class:</label>
+                <select name="class" required style="width: 100%; padding: 10px; border: 1px solid #cbd5e0; border-radius: 5px; font-size: 16px; background-color: white; box-sizing: border-box;">
+                    <option value="">-- Choose Class --</option>
+                    <option value="nursery">Nursery / KG</option>
+                    <option value="primary">Class 1 to 5</option>
+                    <option value="middle">Class 6 to 8</option>
+                </select>
+            </div>
+        
+            <button type="submit" style="background-color: #e53e3e; color: white; border: none; padding: 12px 30px; font-size: 16px; font-weight: bold; border-radius: 5px; cursor: pointer; width: 100%; transition: 0.2s;">Submit Application</button>
+        </form>
+    </div>
+</section>
+     <!-- 3. Our Features Section (Outstanding Boxes) -->
+    <section id="features" style="padding: 60px 50px; background-color: white; text-align: center;">
+        <h2 style="font-size: 32px; color: #1a365d; margin-bottom: 30px;">Why Choose Our School?</h2>
+        
+        <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+            <!-- Box 1 -->
+            <div onclick="alert('We have highly qualified and trained teachers for your bright future!')" style="background: #f7fafc; padding: 30px; width: 280px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); cursor: pointer; transition: 0.3s;">
+                <h3 style="color: #1a365d; margin-bottom: 10px;">Expert Teachers</h3>
+                <p style="color: #4a5568; font-size: 14px;">Click to read about our expert staff members.</p>
+            </div>
+
+            <!-- Box 2 -->
+            <div onclick="alert('Our Science and Computer labs are equipped with the latest technology.')" style="background: #f7fafc; padding: 30px; width: 280px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); cursor: pointer; transition: 0.3s;">
+                <h3 style="color: #1a365d; margin-bottom: 10px;">Modern Labs</h3>
+                <p style="color: #4a5568; font-size: 14px;">Click to explore our modern laboratory facilities.</p>
+            </div>
+
+            <!-- Box 3 -->
+            <div onclick="alert('Admissions are open for the new session! Click Contact to secure your seat.')" style="background: #f7fafc; padding: 30px; width: 280px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); cursor: pointer; transition: 0.3s;">
+                <h3 style="color: #e53e3e; margin-bottom: 10px;">Admissions Open</h3>
+                <p style="color: #4a5568; font-size: 14px;">Click to check special discount offer on fees.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- 2.7. Student Result Portal Section (Connected to Google Sheets) -->
+<section id="results" style="padding: 60px 20px; background-color: #f7fafc; text-align: center; color: #333;">
+    <h2 style="font-size: 32px; color: #1a365d; margin-bottom: 10px;">Check Student Result</h2>
+    <p style="font-size: 18px; color: #4a5568; margin-bottom: 30px;">Enter your Roll Number below to view your terminal examination result.</p>
+
+    <!-- Result Search Box -->
+    <div style="max-width: 500px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <div style="margin-bottom: 20px; text-align: left;">
+            <label style="display: block; font-weight: bold; color: #4a5568; margin-bottom: 8px;">Enter Roll Number:</label>
+            <input type="text" id="rollNumberInput" placeholder="e.g., UOM-101" style="width: 100%; padding: 12px; border: 1px solid #cbd5e0; border-radius: 5px; font-size: 16px; box-sizing: border-box;">
+        </div>
+        <button onclick="searchResultFromSheet()" style="background-color: #3182ce; color: white; border: none; padding: 12px 30px; font-size: 16px; font-weight: bold; border-radius: 5px; cursor: pointer; width: 100%; transition: 0.2s;">Search Result</button>
+
+        <!-- Loading Text -->
+        <p id="loadingText" style="display: none; color: #3182ce; font-weight: bold; margin-top: 15px;">Searching database, please wait...</p>
+
+        <!-- Result Display Area (Shuru mai hidden rahega) -->
+        <div id="resultDisplay" style="display: none; margin-top: 25px; padding-top: 20px; border-top: 2px dashed #e2e8f0; text-align: left;">
+            <h3 style="color: #2b6cb0; margin-bottom: 15px; text-align: center;">🎉 Examination Result 🎉</h3>
+            <p><strong>Student Name:</strong> <span id="resName"></span></p>
+            <p><strong>Father's Name:</strong> <span id="resFather"></span></p>
+            <p><strong>Class:</strong> <span id="resClass"></span></p>
+            <p><strong>Total Marks:</strong> <span id="resTotal"></span></p>
+            <p><strong>Obtained Marks:</strong> <span id="resObtained"></span></p>
+            <p><strong>Percentage:</strong> <span id="resPercentage"></span></p>
+            <p><strong>Status:</strong> <span id="resStatus" style="font-weight: bold; padding: 2px 8px; border-radius: 3px;"></span></p>
+
+        </div>
+    </div>
+</section>
+
+<!-- JavaScript to Fetch Data from Google Sheet -->
+<script>
+    async function searchResultFromSheet() {
+    console.log("Function triggered! Script starting...");
+    
+    const rollNumberInput = document.getElementById("rollNumberInput");
+    if (!rollNumberInput) {
+        console.error("CRITICAL: 'rollNumberInput' element HTML mein nahi mila!");
+        alert("Error: Input box not found!");
+        return;
+    }
+    
+    const rollNumber = rollNumberInput.value.trim().toUpperCase();
+    console.log("User entered Roll Number:", rollNumber);
+    if (!rollNumber) {
+        alert("Please enter a roll number!");
+        return;
+    }
+
+    const loadingText = document.getElementById("loadingText");
+    const resultDisplay = document.getElementById("resultDisplay"); // Fixed ID to match your HTML
+
+    if (loadingText) loadingText.style.display = "block";
+    if (resultDisplay) resultDisplay.style.display = "none";
+
+    var sheetUrl = "https://docs.google.com/spreadsheets/d/11pxfjh6h5o1YGz9AzfAYzm8zfvLCz4Xoayecq_gmmR0/export?format=csv";
+
+    try {
+        const response = await fetch(sheetUrl);
+        if (!response.ok) throw new Error("Network response was not ok");
+        
+        const text = await response.text();
+        
+        const rows = text.split("\n").map(row => 
+            row.split(",").map(val => val.replace(/^"|"$/g, '').trim())
+        );
+        
+        let studentFound = null;
+        
+        for (let i = 1; i < rows.length; i++) {
+            let rowRoll = rows[i][0] ? rows[i][0].toUpperCase() : "";
+            
+            if (rowRoll === rollNumber) {
+                studentFound = {
+                    name: rows[i][1] || "N/A",
+                    father: rows[i][2] || "N/A",
+                    class: rows[i][3] || "N/A",
+                    total: rows[i][4] || "N/A",
+                    obtained: rows[i][5] || "N/A",
+                    percentage: rows[i][6] || "N/A",
+                    status: rows[i][7] || "N/A"
+                };
+                break;
+            }
+        }
+
+        if (loadingText) loadingText.style.display = "none";
+
+        if (studentFound) {
+            const resName = document.getElementById("resName");
+            const resFather = document.getElementById("resFather");
+            const resClass = document.getElementById("resClass");
+            const resTotal = document.getElementById("resTotal");
+            const resObtained = document.getElementById("resObtained");
+            const resPercentage = document.getElementById("resPercentage");
+            const statusSpan = document.getElementById("resStatus");
+
+            if (resName) resName.innerText = studentFound.name;
+            if (resFather) resFather.innerText = studentFound.father;
+            if (resClass) resClass.innerText = studentFound.class;
+            if (resTotal) resTotal.innerText = studentFound.total;
+            if (resObtained) resObtained.innerText = studentFound.obtained;
+            if (resPercentage) resPercentage.innerText = studentFound.percentage;
+            
+            if (statusSpan) {
+                statusSpan.innerText = studentFound.status;
+                if (studentFound.status.toUpperCase() === "PASSED") {
+                    statusSpan.style.backgroundColor = "#48bb78";
+                    statusSpan.style.color = "#ffffff";
+                } else {
+                    statusSpan.style.backgroundColor = "#e53e3e";
+                    statusSpan.style.color = "#ffffff";
+                }
+            }
+            
+            if (resultDisplay) {
+                resultDisplay.style.display = "block";
+            }
+        } else {
+            alert("Roll Number '" + rollNumber + "' not found in the database!");
+        }
+
+    } catch (error) {
+        if (loadingText) loadingText.style.display = "none";
+        alert("Error fetching data!");
+        console.error("Fetch Error:", error);
+    }
+}
+</script>
+<!-- ==========================================
+     🏆 2.6. TOPPERS GALLERY (HONOR ROLL) SECTION
+     ========================================== -->
+<section id="toppers" style="padding: 60px 20px; background-color: #f7fafc; text-align: center;">
+    <h2 style="font-size: 32px; color: #1a365d; margin-bottom: 10px;">🏆 Our Academic Toppers</h2>
+    <p style="font-size: 18px; color: #4a5568; max-width: 600px; margin: 0 auto 40px auto;">
+        Proudly presenting our top position holders who achieved outstanding excellence in the terminal examinations.
+    </p>
+
+    <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; max-width: 1200px; margin: 0 auto;">
+        
+        <!-- 🥇 First Position -->
+        <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 260px; border: 2px solid #ffd700; position: relative;">
+            <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: #ffd700; color: #1a365d; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 14px;">1st Position</div>
+            <div style="width: 100px; height: 100px; background: #e2e8f0; border-radius: 50%; margin: 15px auto; display: flex; align-items: center; justify-content: center; font-size: 36px;">🥇</div>
+            <h4 style="margin: 10px 0 5px 0; color: #2d3748; font-size: 20px;">Ayesha Khan</h4>
+            <p style="margin: 0; color: #4a5568; font-weight: bold;">Class: 10th</p>
+            <p style="margin: 5px 0 0 0; color: #2b6cb0; font-size: 18px; font-weight: bold;">98.2%</p>
+        </div>
+
+        <!-- 🥈 Second Position -->
+        <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 260px; border: 2px solid #c0c0c0; position: relative;">
+            <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: #c0c0c0; color: #1a365d; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 14px;">2nd Position</div>
+            <div style="width: 100px; height: 100px; background: #e2e8f0; border-radius: 50%; margin: 15px auto; display: flex; align-items: center; justify-content: center; font-size: 36px;">🥈</div>
+            <h4 style="margin: 10px 0 5px 0; color: #2d3748; font-size: 20px;">Ali Ahmed</h4>
+            <p style="margin: 0; color: #4a5568; font-weight: bold;">Class: 9th</p>
+            <p style="margin: 5px 0 0 0; color: #2b6cb0; font-size: 18px; font-weight: bold;">96.5%</p>
+        </div>
+
+        <!-- 🥉 Third Position -->
+        <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 260px; border: 2px solid #cd7f32; position: relative;">
+            <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: #cd7f32; color: white; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 14px;">3rd Position</div>
+            <div style="width: 100px; height: 100px; background: #e2e8f0; border-radius: 50%; margin: 15px auto; display: flex; align-items: center; justify-content: center; font-size: 36px;">🥉</div>
+            <h4 style="margin: 10px 0 5px 0; color: #2d3748; font-size: 20px;">Sanaullah</h4>
+            <p style="margin: 0; color: #4a5568; font-weight: bold;">Class: 10th</p>
+            <p style="margin: 5px 0 0 0; color: #2b6cb0; font-size: 18px; font-weight: bold;">95.1%</p>
+        </div>
+
+    </div>
+</section>
+<!-- 2.7. Contact Us & Footer Section -->
+<section id="contact" style="padding: 60px 20px; background-color: #1a365d; color: white; text-align: center;">
+    <h2 style="font-size: 32px; color: #fbd38d; margin-bottom: 20px;">Contact Us</h2>
+    <p style="font-size: 18px; color: #e2e8f0; max-width: 600px; margin: 0 auto 40px auto;">
+        Have questions? Get in touch with us or visit our campus. We are here to help you!
+    </p>
+
+    <!-- Contact Info Cards -->
+    <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; max-width: 900px; margin: 0 auto 40px auto;">
+        <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 8px; width: 250px;">
+            <h4 style="color: #fbd38d; margin-bottom: 10px; font-size: 18px;">📍 Campus Address</h4>
+            <p style="font-size: 14px; color: #e2e8f0; line-height: 1.5;">Near Govt Girls Higher And Secondary School Shakoor</p>
+        </div>
+        <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 8px; width: 250px;">
+            <h4 style="color: #fbd38d; margin-bottom: 10px; font-size: 18px;">📞 Phone & Email</h4>
+            <p style="font-size: 14px; color: #e2e8f0; line-height: 1.5;">+92 336 9081833<br>apnaschoolshakoor@gmail.com</p>
+        </div>
+        <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 8px; width: 250px;">
+            <h4 style="color: #fbd38d; margin-bottom: 10px; font-size: 18px;">🕒 School Timings</h4>
+           <p style="font-size: 14px; color: #e2e8f0; line-height: 1.5;">Monday - Saturday:<br>7:00 AM - 1:00 PM</p>
+        </div>
+    </div>
+
+    <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.2); max-width: 1000px; margin: 0 auto 20px auto;">
+
+    <!-- Footer Copyright -->
+    <p style="font-size: 14px; color: #a0aec0; margin: 0;">&copy; 2026 Apna Public School Shakoor. All Rights Reserved. Designed with ❤️</p>
+</section>
+</html>
